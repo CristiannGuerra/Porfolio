@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock title %}
+
+{% block content %}
+    <div class="hero">
+        <div class="hero-content">
+            <div class="left">
+                <h1>Python Developer</h1>
+                <h1>Cristian Guerra</h1>
+                <p>I design and code using python and relational databases </p>
+                <a href="#contact" class="btn">Email me</a>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+    </div>
+{% include 'portfolio/section-first.html' %}
+{% include 'portfolio/section-second.html' %}
+{% include 'portfolio/section-third.html' %}
+{% endblock content %}
